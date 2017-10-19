@@ -7,6 +7,8 @@ There are two parts to this project, a hub, which receives inputs, and control s
 which send control changes to the hub.  The hub then forwards the information on to other 
 units as needed.
 
+### Hub Setup
+
 No setup is needed for the hub.
 
 ### Surface Setup
@@ -20,4 +22,6 @@ Address | D4 | D3 | D2
    0    | -  | -  | -
    1    | -  | -  | X
    2    | -  | X  | -
+
+Note: The surface address is read at power up only.
 
